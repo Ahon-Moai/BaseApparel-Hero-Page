@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.App {
+  margin-top: 70px;
+  margin-left: 150px;
+}
+.Title {
+  margin-top: 100px;
+}
+.title {
+  font-size: 86px;
+  width: 300px;
+  letter-spacing: 12px;
+  line-height: 1;
+}
+.were {
+  color: hsl(0, 36%, 70%);
+}
+.Title .were {
+  font-weight: 300;
+}
+.title {
+  font-weight: 400;
+  color: hsl(0, 6%, 24%);
+}
+.title-para {
+  color: hsl(0, 30%, 56%);
+  width: 520px;
+  margin-top: 36px;
+  font-size: 19px;
+  letter-spacing: 2px;
+  line-height: 26px;
+}
+.Form {
+  margin-top: 46px;
+}
+.inputfield {
+  padding: 12px 36px;
+  border-radius: 16px;
+  width: 40%;
+  border-style: none;
+  border: 0.1px solid hsl(0, 41%, 79%);
+  color: hsl(0, 24%, 71%);
+  margin-bottom: 300px;
+  outline: none;
+  font-size: 17px;
+  font-weight: 300px;
+}
+.btn {
+  padding: 12px 32px;
+  border-radius: 16px;
+  background-color: hsl(0, 74%, 74%);
+  border: none;
+  margin-left: 11px;
+  color: aliceblue;
+  font-size: 19px;
+}
+.image {
+  height: 820px;
+  position: absolute;
+  right: 0;
+  margin-left: 300px;
+  top: 0%;
+}
